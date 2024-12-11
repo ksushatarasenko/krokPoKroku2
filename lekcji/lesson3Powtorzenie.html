@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson №3Powtórzenie</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <h1>Krok po kroku - junior 1 <br> 3</h1>
+            <h2>Powtórzenie </h2>
+            <div class="image">
+                <h2>Przypadki w języku polskim</h2>
+                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfUFFqtH22egcpM3XA?embed=1&width=946&height=952"
+                    alt="przypadki" style="width: 35%;">
+            </div>
+            <!-- 2 -->
+            <h2>2. Jaki to jest dzień tygodnia? [503P2]</h2>
+            <div class="colors">
+                <p class="p">1. p<span class="italic blue">oniedziałek</span></p>
+            </div>
+            <div class="question-set" id="set1">
+                <div class="dialog italic two" style="width: 130%;">
+                    <div>
+                        <div class="colors">
+                            <p class="p">2. w <input type="text" data-answer="torek" class="line_1">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">3. ś <input type="text" data-answer="roda" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">4. c <input type="text" data-answer="zwartek" class="line_1"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="colors">
+                            <p class="p">5. p <input type="text" data-answer="iątek" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">6. s <input type="text" data-answer="obota" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">7. n <input type="text" data-answer="iedziela" class="line_1"></p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="checkAnswers('set1')">Check</button>
+            </div>
+            <!--  -->
+            <div class="two">
+                <div class="image">
+                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfxPfyoTzXSfAZN0hw?embed=1&width=526&height=526" alt="biernik">
+                </div>
+                <div class="image" style="width: 130%;margin-left: -23%;">
+                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfxQQ4IkmcdYuGgbLA?embed=1&width=4358&height=2446" alt="dopełniacz">
+                </div>
+            </div>
+            <!-- 3 -->
+            <h2>3. Jaki jest mój, twój, jego, jej ulubiony przedmiot szkolny? [503P3]</h2>
+            <p class="p22 italic ">1. Maja lubi pisać poezję. <br><span class="blue">Jej ulubiony przedmiot to język
+                    polski.</span></p>
+            <div class="question-set" id="set3">
+                <div class="dialog italic two">
+                    <div>
+                        <div class="colors">
+                            <p class="p22">2. Denis lubi grać w gry komputerowe <br> <input type="text"
+                                    data-answer="Jego ulubiony przdmiot to informatyka" class="line_3"
+                                    style="margin-left: 8%;">.</p>
+                        </div><br>
+                        <div class="colors">
+                            <p class="p22" style="width: 110%;">3. Ja lubię grać w piłkę. <br> <input type="text"
+                                    data-answer="Mój ulubiony przedmiot to WF" class="line_3" style="margin-left: 5%;">.
+                            </p>
+                        </div><br>
+                        <div class="colors">
+                            <p class="p22" style="width: 110%;">4. Ty lubisz robić eksperementy. <br> <input type="text"
+                                    data-answer="Twój ulubiony przedmiot to przyroda" class="line_3"
+                                    style="margin-left: 5%;">.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="colors">
+                            <p class="p22" style="width: 110%;">5. Toru lubi mówić po angielski.<br> <input type="text"
+                                    data-answer="Jego ulubiony przdmiot to język angielski" class="line_3"
+                                    style="margin-left: 6%;">.</p>
+                        </div><br>
+                        <div class="colors">
+                            <p class="p22" style="width: 110%;">6. Misaki lubi malować.<br> <input type="text"
+                                    data-answer="Jej ulubiony przedmiot to plastyka" class="line_3"
+                                    style="margin-left: 5%;">.</p>
+                        </div><br>
+                        <div class="colors">
+                            <p class="p22" style="width: 110%;">7. Ja lubi grać na pianinie.<br> <input type="text"
+                                    data-answer="Mój ulubiony przedmiot to muzyka." class="line_3"
+                                    style="margin-left: 5%;">.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex">
+                <button onclick="checkAnswers('set3')">Sprawdź</button>
+                <div>
+                    <button onclick="toggleHints('hints3')">Wskazówka</button>
+                    <div id="hints3" style="display: none;">
+                        <div class="two">
+                            <div>
+                                <p>2. Denis lubi grać w gry komputerowe. <br>
+                                    <b>Jego ulubiony przedmiot to informatyka</b>.
+                                </p>
+                                <p>3. Ja lubię grać w piłkę. <br> <b>Mój ulubiony przedmiot to WF</b>.</p>
+                                <p>4. Ty lubisz robić eksperymenty. <br> <b>Twój ulubiony przedmiot to przyroda</b>.</p>
+                            </div>
+                            <div>
+                                <p>5. Toru lubi mówić po angielsku. <br> <b>Jego ulubiony przedmiot to język
+                                        angielski</b>.</p>
+                                <p>6. Misaki lubi malować. <br> <b>Jej ulubiony przedmiot to plastyka</b>.</p>
+                                <p>7. Ja lubię grać na pianinie. <br> <b>Mój ulubiony przedmiot to muzyka</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 3 -->
+            <!-- 4 -->
+            <h2> 4. Co Gordon lubi, a czego nie lubi?</h2>
+            <div class="question-set" id="set4">
+                <div class="dialog  fonLightGreen">
+                    <div class="three">
+                        <div>
+                            <div class="paspisanie">
+                                <p class="p26" style="font-family: fantasy;">Gordon lubi:</p>
+                                <p class="p22">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">tańczyć</span> break-dance</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">m</span> <input type="text" data-answer="ówić"
+                                        class="line_1"> po polsku</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">g</span> <input type="text" data-answer="rać"
+                                        class="line_1"> w tenisa</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">s</span> <input type="text" data-answer="łuchać"
+                                        class="line_1"> muzyki</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="paspisanie">
+                                <p class="p26" style="font-family: fantasy;">Gordon nie lubi:</p>
+                                <p class="p22">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">c</span> <input type="text" data-answer="zytać"
+                                        class="line_1"> książek i gazet</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">p</span> <input type="text" data-answer="isać"
+                                        class="line_1"> pracy domowej, SMS-ów, maili</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">l</span> <input type="text" data-answer="iczyć"
+                                        class="line_1"> (1, 2, 3, 4, ...)</p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">🟢<span style="color: green;">=></span> <span
+                                        class="blue italic">s</span> <input type="text" data-answer="urfować"
+                                        class="line_1"> po internecie</p>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfxNthdO-0RgBJmPPA?embed=1&width=1454&height=1426"
+                                alt="503P4" style="border-radius: 53%;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex">
+                <button onclick="checkAnswers('set4')">Sprawdź</button>
+                <div>
+                    <button onclick="toggleHints('hints4')">Wskazówka</button>
+                    <div id="hints4" style="display: none;">
+                        <p>1. mówić po polsku</p>
+                        <p>2. grać w tenisa</p>
+                        <p>3. słuchać muzyki</p>
+                        <p>4. czytać książek i gazet</p>
+                        <p>5. pisać pracy domowej, SMSó-w, maili </p>
+                        <p>6. liczyćn(1, 2, 3, 4, ...)</p>
+                        <p>7. surfować po internecie</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end 4 -->
+
+
+            <!-- end 5 -->
+            <div class="image">
+                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfxOwN3XiyMzvnCKOA?embed=1&width=1760&height=1010"
+                    alt="503P5">
+            </div>
+            <!-- 8 -->
+            <h2>8. Proszę uzupełnić. [503P8]</h2>
+
+            <div class="three" style="width: 100%;">
+                <!-- 8.1 -->
+                <div class="question-set" id="set2" style="width: 100%;">
+                    <div class="dialog italic ">
+                        <h3 class="coral">umieć</h3>
+                        <div class="colors">
+                            <p class="p italic ">(ja) imiem</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">(ty) <input type="text" data-answer="umiesz" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (on/ ona/ ono) <input type="text" data-answer="umie" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (my) <input type="text" data-answer="umiemy" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (wy) <input type="text" data-answer="umiecie" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (oni/ one) <input type="text" data-answer="umieją" class="line_1"></p>
+                        </div>
+                    </div>
+                    <button onclick="checkAnswers('set2')">Check</button>
+                </div>
+                <!-- 8.2 -->
+                <div class="question-set" id="set3" style="width: 100%;">
+                    <div class="dialog italic ">
+                        <h3 class="coral">śpiewać</h3>
+                        <div class="colors">
+                            <p class="p italic ">(ja) <input type="text" data-answer="śpiewam" class="line_1">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p coral">(ty) śpiewasz </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (on/ ona/ ono) <input type="text" data-answer="śpiewa" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (my) <input type="text" data-answer="śpiewamy" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (wy) <input type="text" data-answer="śpiewacie" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p coral"> (oni/ one) śpiewają</p>
+                        </div>
+                    </div>
+                    <button onclick="checkAnswers('set3')">Check</button>
+                </div>
+                <!-- 8.3 -->
+                <div class="question-set" id="set4" style="width: 100%;">
+                    <div class="dialog italic ">
+                        <h3 class="coral">mówić</h3>
+                        <div class="colors">
+                            <p class="p italic ">(ja) <input type="text" data-answer="mówię" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">(ty) <input type="text" data-answer="mówisz" class="line_1"> </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p coral"> (on/ ona/ ono) mówi</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (my) <input type="text" data-answer="mówimy" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (wy) <input type="text" data-answer="mówicie" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (oni/ one) <input type="text" data-answer="mówią" class="line_1"></p>
+                        </div>
+                    </div>
+                    <button onclick="checkAnswers('set4')">Check</button>
+                </div>
+
+                <!-- 8.4 -->
+                <div class="question-set" id="set8-4" style="width: 100%;">
+                    <div class="dialog italic ">
+                        <h3 class="coral">uczyć się</h3>
+                        <div class="colors">
+                            <p class="p italic ">(ja) uczyę się</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p">(ty) <input type="text" data-answer="uczysz się" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (on/ ona/ ono) <input type="text" data-answer="uczy się" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (my) <input type="text" data-answer="uczymy się" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (wy) <input type="text" data-answer="uczycie się" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p"> (oni/ one) <input type="text" data-answer="uczą się" class="line_1"></p>
+                        </div>
+                    </div>
+                    <button onclick="checkAnswers('set8-4')">Check</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="video">
+                <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/1753933735104a3e97832855feb122bd?themeId=52&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- 10 -->
+            <h2>10. Proszę uzupełnić. [503P10]</h2>
+            <div class="question-set" id="set6" style="width: 70%;">
+                <div class="dialog italic ">
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">A:</span> <span
+                                class="blue italic">Grasz</span>(ty/grać) na jakimś instrumencie?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">B:</span> <input type="text" data-answer="Gram"
+                                class="line">(ja/grać) na flecie.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">A:</span> Dobrze?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">B:</span> Nie, tak sobie. Chyba nie <input
+                                type="text" data-answer="mam" class="line">(ja/mieć) talentu.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">C:</span> Czy Mathis i Diego <input type="text"
+                                data-answer="słuchają" class="line">(słuchać) polskiego rocka?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">D:</span> Chyba nie. Mathis <input type="text"
+                                data-answer="gra" class="line">(grać) na gitarze, ale nie wiem, czy lubi rocka.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">E:</span> Czy Clara dobrze <input type="text"
+                                data-answer="tańczy" class="line">(tańczyć)?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">F:</span> Czy Clara dobrze Nie bardzo. <input
+                                type="text" data-answer="tańczy" class="line">(ona/tańczyć) tak sobie.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">G:</span> <input type="text"
+                                data-answer="Mówicie" class="line">(wy/mówić) po polsku czy po angielsku?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">H:</span> Jasne, że po polsku <input type="text"
+                                data-answer="chodzimy" class="line">(my/chodzić) na kurs i <input type="text"
+                                data-answer="uczymy się" class="line">(my/uczyć się) polskiego, wieć <input type="text"
+                                data-answer="mówimy" class="line">(my/mówić) po poslku.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">I:</span> Co <input type="text"
+                                data-answer="robisz" class="line">(ty/robić)?</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">J:</span> <input type="text"
+                                data-answer="Uczę się" class="line">(ja/uczyć się) polskiego. <input type="text"
+                                data-answer="chodzę" class="line">(ja/chodzić) na kurs.</p>
+                    </div>
+                    <div class="colors">
+                        <p style="font-size: 22px;"><span class="coral">K:</span> Dobrze <input type="text"
+                                data-answer="mówisz" class="line">(ty/mówić) tylko trochę.</p>
+                    </div>
+
+                </div>
+                <button onclick="checkAnswers('set6')">Check</button>
+            </div>
+            <!--  -->
+            <div class="video">
+                <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/1753933735104a3e97832855feb122bd?themeId=52&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+
+
+
+
+<!-- END page -->
+        </main>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="../script.js"></script>
+    <script src="../checkRadio.js"></script>
+    <script src="../scriptchexBox.js"></script>
+    <script src="../wyborOtweta.js"></script>
+</body>
+
+</html>
