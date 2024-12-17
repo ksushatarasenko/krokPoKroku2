@@ -427,6 +427,9 @@ label{
 .line_2{
    width: 150px;
    font-size: 16px;
+   color: blue;
+   font-weight: 900;
+   font-style: italic;
 }
 .line_3{
    width: 300px;
