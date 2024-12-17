@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson №1PowtórzenieTest</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <h1>Krok po kroku - 2</h1>
+            <h2>01 - Powtórzenie and Tests <br> Przedstawmy się / narzędnik</h2>
+            <h3><span class="red">Komunikacja</span> przedstawianie siebie i innych wyrażanie preferencji</h3>
+            <h3><span class="red">Słownistwo</span> wygląd, charakter zainteresowanie, stan cywilny</h3>
+            <h3><span class="red">Gramatyka</span> narzędnik</h3>
+            <!-- rymowanki -->
+            <h2><a href="https://quizlet.com/pl/983930264/kpk2-lekcja-01-przedstawmy-sie-flash-cards/?i=4wzil5&x=1qqt"
+                    target="_blank"> Nowe słowa >>></a></h2>
+            <h2>1. Соедините противоположности</h2>
+            <div class="video">
+                <iframe style="max-width:100%"
+                    src="https://wordwall.net/uk/embed/1e67baa3f00047bf8b8774d919e5683a?themeId=43&templateId=3&fontStackId=0"
+                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h2> Соедините синонимы</h2>
+            <div class="video">
+                <iframe style="max-width:100%"
+                    src="https://wordwall.net/uk/embed/7fbab0f6bbdf46f3b16b27dd12da803b?themeId=62&templateId=3&fontStackId=0"
+                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- 1 -->
+            <div class="blockZadanie">
+                <h3>Test 1 - Вставьте буквы.</h3>
+                <div class="question-set" id="set1">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">1. Człowiek, który się spóźnia jest => <span
+                                    class="blue">niepunktualny</span></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Nie ma dziec => <input type="text" data-answer="b" class="line_4"> <input
+                                    type="text" data-answer="e" class="line_4"> z <input type="text" data-answer="d"
+                                    class="line_4"> <input type="text" data-answer="z" class="line_4"> <input
+                                    type="text" data-answer="i" class="line_4"> e <input type="text" data-answer="t"
+                                    class="line_4"> <input type="text" data-answer="n" class="line_4"> <input
+                                    type="text" data-answer="y" class="line_4"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Człowiek, który lubi spotykać się z ludźmi jest => <input type="text"
+                                    data-answer="t" class="line_4"> <input type="text" data-answer="o" class="line_4">
+                                <input type="text" data-answer="w" class="line_4"> <input type="text" data-answer="a"
+                                    class="line_4"> r <input type="text" data-answer="z" class="line_4"> <input
+                                    type="text" data-answer="y" class="line_4"> <input type="text" data-answer="s"
+                                    class="line_4"> k <input type="text" data-answer="i" class="line_4">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Kobieta o ciemnych włosach => <input type="text" data-answer="s"
+                                    class="line_4"> z <input type="text" data-answer="a" class="line_4"> <input
+                                    type="text" data-answer="t" class="line_4"> <input type="text" data-answer="y"
+                                    class="line_4"> <input type="text" data-answer="n" class="line_4"> k <input
+                                    type="text" data-answer="a" class="line_4"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Kobieta o ładnej sylwetce jest => z <input type="text" data-answer="g"
+                                    class="line_4"> <input type="text" data-answer="r" class="line_4"> a <input
+                                    type="text" data-answer="b" class="line_4"> n <input type="text" data-answer="a"
+                                    class="line_4"> </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Człowiek, który nie ma pewności siebie jest => n <input type="text"
+                                    data-answer="i" class="line_4"> <input type="text" data-answer="e" class="line_4"> ś
+                                <input type="text" data-answer="m" class="line_4"> i <input type="text" data-answer="a"
+                                    class="line_4"> <input type="text" data-answer="ł" class="line_4"> <input
+                                    type="text" data-answer="y" class="line_4">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Za dużo kilogramów => <input type="text" data-answer="n" class="line_4">
+                                <input type="text" data-answer="a" class="line_4"> d <input type="text" data-answer="w"
+                                    class="line_4"> <input type="text" data-answer="a" class="line_4"> <input
+                                    type="text" data-answer="g" class="line_4"> <input type="text" data-answer="a"
+                                    class="line_4">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set1')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 80%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgoZWwk-HGVSlrWgM4Q?embed=1&width=1266&height=438"
+                                    alt="otwetTest1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end 1 -->
+
+
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h3>2. Test 2 - </h3>
+
+                <p class="slowa"><span class="coral">Jestem jedynaczką, ale mam rodziców. No i narzeczonego</span> |
+                    <span class="coral">Z zawodu jestem
+                        chemikiem, ale pracuję w agencji reklamowej</span> | <span class="coral">Mój mąż był
+                        Amerykaninem</span> | <span class="coral">Lisowska </span> | <span class="coral">Maria
+                        Lisowska-Brown</span> | <span class="coral">Tak, uwielbiam żeglarstwo i pracę w
+                        ogrodzie</span> | <span class="coral">Nie... rozwiedliśmy się. Ale za miesiąc znów wychodzę za
+                        mąż</span> | <span class="coral">Tak,
+                        ale mam też obywatelstwo amerykańskie</span> | <span class="coral">Nie... jeszcze nie... Jestem
+                        w piątym miesiącu ciąży</span> | <span class="coral">Mam 34 lata</span> |
+                    <span class="coral">Tak, proszę</span>
+                </p>
+                <div class="question-set" id="set2">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">A: Halo, dzień dobry. Marcin Wasilewski, Główny Urząd Statystyczny.
+                                Przeprowadzamy narodowy spis ludności.
+                                Czy mogę zadać pani kilka pytań?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <span class="blue">Tak, proszę</span>.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Pani imię i nazwisko?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text" data-answer="Maria Lisowska-Brown" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Nazwisko rodowe?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text" data-answer="Lisowska" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Wiek?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text" data-answer="Mam 34 lata" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Czy pani jest Polką?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Tak, ale mam też obywatelstwo amerykańskie" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Dlaczego?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text" data-answer="Mój mąż był Amerykaninem" class="line_3">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Pani jest wdową? Bardzo mi przykro.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Nie... rozwiedliśmy się. Ale za miesiąc znów wychodzę za mąż"
+                                    class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Ach, rozumiem. Ma pani rodzinę?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Jestem jedynaczką, ale mam rodziców. No i narzeczonego"
+                                    class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: A dzieci?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Nie... jeszcze nie... Jestem w piątym miesiącu ciąży" class="line_3">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: Czym się pani zajmuje?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Z zawodu jestem chemikiem, ale pracuję w agencji reklamowej"
+                                    class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">A: A ma pani jakieś pasje?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">B: <input type="text"
+                                    data-answer="Tak, uwielbiam żeglarstwo i pracę w ogrodzie" class="line_3">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set2')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content image" style="width: 75%;">
+                            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgoZX6uDSsmEU5gMCEg?embed=1&width=1020&height=792"
+                                alt="otwet201T-2"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end 2 -->
+
+
+            <!-- 3 -->
+            
+                <h2>3. Test 3 [201T3]</h2>
+
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/d186b1666c314df2ae1ad3d80d043f20?themeId=62&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            
+           
+
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h2>4. Wpisz [201T-4]</h2>
+                
+                <div class="question-set" id="set4">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">1.  <span class="blue"> Czym</span> 
+                                przyjechałeś? Taksówką. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Basia i Marcin idą dziś na basen. Może pójdziemy z <input type="text"
+                                data-answer="nimi" class="line_2">? </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. To dopiero początek wakacji. <input type="text"
+                                data-answer="Przed" class="line_2"> nami jeszcze cały lipiec i sierpień. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. <input type="text"
+                                data-answer="Którędy" class="line_2"> lepiej jechać, autostradą czy przez miasto? </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. <input type="text"
+                                data-answer="Jak" class="line_2"> piszesz na komputerze, wszystkimi palcami czy tylko dwoma? 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Robiłeś to zadanie <input type="text"
+                                data-answer="z" class="line_2"> kolegą czy sam?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Proszę państwa, ten wspaniały żyrandol <input type="text"
+                                data-answer="nad" class="line_2"> naszymi głowami pochodzi z osiemnastego wieku. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">8. O północy jeszcze byłeś na imprezie, a o szóstej już w pracy? To <input type="text"
+                                data-answer="kiedy" class="line_2"> ty spałeś?!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">9. Długo jeszcze będziesz czekać? Chyba nie, przede <input type="text"
+                                data-answer="mną" class="line_2"> już tylko trzy osoby. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set4')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 70%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgoZYA3DmYFh1Qhhtxw?embed=1&width=1656&height=576"
+                                    alt="otwet201T-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end 4 -->
+            
+
+        </main>
+    </div>
+    <script src="../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="../../checkRadio.js"></script>
+
+</body>
+
+</html>

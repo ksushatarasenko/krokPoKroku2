@@ -440,7 +440,11 @@ label{
 }
 .line_4{
    width: 40px;
-   font-size: 22px;
+   font-size: 16px;
+   color: blue;
+   font-weight: 900;
+   font-style: italic;
+   margin: 0 2px;
 }
 .line_5{
    width: 30px;
