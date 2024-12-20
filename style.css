@@ -589,37 +589,11 @@ input {
    padding: 0.2%;
 }
 
-/* peretaskivanie fraz */
-
-.containerFraz {
+.column{
    display: flex;
    flex-direction: column;
-   gap: 10px;
-   max-width: 600px;
-   margin: auto;
-}
-.draggable {
-   padding: 10px;
-   background-color: #f0f0f0;
-   border: 1px solid #ccc;
-   cursor: grab;
-}
-.dropzone {
-   padding: 10px;
-   background-color: #e0f7fa;
-   border: 1px dashed #00796b;
-   min-height: 50px;
-}
-.dropzone.dragover {
-   background-color: #b2ebf2;
-}
-.button {
-   margin-top: 20px;
-   padding: 10px 20px;
-   background-color: #00796b;
-   color: white;
-   border: none;
-   cursor: pointer;
+   gap: 4px;
+   margin: 2%;
 }
 
 /* WIDTH */
