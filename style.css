@@ -509,7 +509,19 @@ button{
    margin-top: 1%;
   
 }
-
+select {
+   font-size: 16px; 
+   border-radius: 10px;
+   color: rgb(81, 79, 79);
+   padding: 1px;
+}
+option {
+   font-size: 18px; 
+   margin-top: 10px;
+}
+li{
+   font-size: 18px;
+}
 .selected {
    text-decoration: underline;
 }
