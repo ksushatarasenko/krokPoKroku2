@@ -457,6 +457,14 @@ label{
 .line_7{
    width: 400px;
 }
+.line_8{
+   width: 600px;
+   font-size: 16px;
+   color: blue;
+   font-weight: 900;
+   font-style: italic;
+   margin: 0 2px;
+}
 .kolo{
    width: 45px;
    height: 45px;
