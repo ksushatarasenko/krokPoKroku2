@@ -344,7 +344,9 @@
         <div class="hint2-container" onclick="toggleHint2(this)">
             <div class="hint2-header"></div>
             <div class="hint2-content">
-                Число ділиться на 5, якщо воно закінчується на 0 або 5.
+                <div class="image" style="width: 90%;">
+                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgoxnFddd361RJNYkWQ?embed=1&width=1158&height=498" alt="otwet203A2">
+                </div>
             </div>
         </div>
     </div>
