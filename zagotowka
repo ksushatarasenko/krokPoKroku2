@@ -26,6 +26,20 @@
         </div>
     </div>
 </div>
+<!-- OTWET -->
+
+<div class="flex">
+    <div class="hint2-container" onclick="toggleHint2(this)">
+        <div class="hint2-header"></div>
+        <div class="hint2-content">
+            <div class="image" style="width: 90%;">
+                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgo0FbEIO8PG6tWPh5w?embed=1&width=1040&height=654" alt="otwet203B1_1">
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- tablica wpisać-->
 <div class="question-set" id="set3">
     <table class="dialog italic ">
@@ -285,12 +299,22 @@
         </div>
 
 <!-- SLOWA -->
-<p class="slowa"><span class="coral">regularnie</span> | <span class="coral">w ten piątek</span> | <span
-    class="coral">codziennie</span> | <span class="coral">teraz </span> | <span class="coral">w tę
-    sobotę</span> | <span class="coral">rzadko</span> | <span class="coral">za chwilę</span> | <span
-    class="coral">czasem</span> | <span class="coral">nigdy</span> | <span class="coral">jutro</span> |
-    <span class="coral">zaraz</span> | <span class="coral">często</span> | <span
-    class="coral">dzisiaj</span> | <span class="coral">zwykle</span> | <span class="coral">zawsze</span>
+<p class="slowa">
+    <span class="coral">regularnie</span> | 
+    <span class="coral">w ten piątek</span> | 
+    <span class="coral">codziennie</span> | 
+    <span class="coral">teraz </span> | 
+    <span class="coral">w tę sobotę</span> | 
+    <span class="coral">rzadko</span> | 
+    <span class="coral">za chwilę</span> | 
+    <span class="coral">czasem</span> | 
+    <span class="coral">nigdy</span> | 
+    <span class="coral">jutro</span> |
+    <span class="coral">zaraz</span> | 
+    <span class="coral">często</span> | 
+    <span class="coral">dzisiaj</span> | 
+    <span class="coral">zwykle</span> | 
+    <span class="coral">zawsze</span>
 </p>
 
 <!-- ///podskazkaOptima -->
