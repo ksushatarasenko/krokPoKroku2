@@ -583,21 +583,7 @@ input {
    text-align: center;
 }
 
-.flex{
-   display: flex;
-   flex-direction: column;
-}
-/* ---------------- */
-/* .raspisanie{
-   display: flex;
-   flex-direction: column;
-   padding: 1%;
 
-} */
-.boxColumn{
-   display: flex;
-   flex-direction: column;
-}
 .displayFlex{
    display: flex;
    width: 100%;
@@ -609,13 +595,18 @@ input {
    display: flex;
    gap: 2%;
    align-items: center;
+   flex-direction: column;
 }
+
 
 .przerewod{
    margin: 0;
    padding: 0.2%;
 }
-
+.boxColumn{
+   display: flex;
+   flex-direction: column;
+}
 .column{
    display: flex;
    flex-direction: column;
@@ -724,3 +715,12 @@ input {
 }
 
 /* ---------- END POKAZ OTWETA OPTIMA ------------------ */
+.left{
+   margin-left: 10%;
+}
+.pravilo{
+   padding: 1%;
+   margin: 0 auto;
+   margin-top: 3%;
+   width: 95%;
+}
