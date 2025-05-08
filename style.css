@@ -724,3 +724,29 @@ input {
    margin-top: 3%;
    width: 95%;
 }
+
+/* TEXTERIA */
+.result {
+   font-size: 18px;
+   line-height: 1.6;
+   margin-top: 5px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   background-color: #f9f9f9;
+ }
+.result span.correct {
+   background-color: transparent;
+   color: rgb(58, 122, 43);
+   font-size: 20px;
+ }
+ 
+ .result span.incorrect {
+   background-color: #ffe6e6; /* нежно-красный фон */
+   color: red;
+   font-weight: bold;
+ }
+
+textarea { width: 60%; height: 150px; margin-top: 10px;font-size: 18px;padding: 2%; }
+button { margin-top: 10px; }
+/* end TEXTERIA */

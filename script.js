@@ -139,3 +139,31 @@ function checkAnswersForm(formId) {
         }
     });
 }
+
+// TEXTERIA
+const correctText = document.getElementById("task").dataset.correct;
+
+    function normalize(text) {
+      return text.trim().toLowerCase().replace(/[.,!?;:]/g, '');
+    }
+
+    function checkText() {
+      const userInput = document.getElementById("userInput").value;
+      const userWords = normalize(userInput).split(/\s+/);
+      const correctWords = normalize(correctText).split(/\s+/);
+
+      const resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = '';
+
+      for (let i = 0; i < correctWords.length; i++) {
+        const userWord = userWords[i] || "";
+        const span = document.createElement("span");
+        span.textContent = userWord + " ";
+        if (userWord === correctWords[i]) {
+          span.className = "correct";
+        } else {
+          span.className = "incorrect";
+        }
+        resultDiv.appendChild(span);
+      }
+    }
