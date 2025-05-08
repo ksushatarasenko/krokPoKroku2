@@ -466,6 +466,9 @@ label{
 }
 .line_7{
    width: 400px;
+   font-size: 16px;
+   color: blue;
+   font-style: italic;
 }
 .line_8{
    width: 600px;
