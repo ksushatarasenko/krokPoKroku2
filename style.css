@@ -326,8 +326,9 @@ header ul{
   }
 
   .info-box em {
-    color: #555;
+    color: #d90505;
     font-style: italic;
+    font-size: 22px;
   }
 
   #popupImage {
