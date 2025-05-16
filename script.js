@@ -167,3 +167,45 @@ const correctText = document.getElementById("task").dataset.correct;
         resultDiv.appendChild(span);
       }
     }
+
+    // wybor newernogo otweta
+    // Обработчик клика по варианту ответа
+document.querySelectorAll('.option').forEach(option => {
+    option.addEventListener('click', () => {
+        const parentQuestion = option.closest('.question');
+        const allOptions = parentQuestion.querySelectorAll('.option');
+
+        // Удаляем выделение у всех опций в этом вопросе
+        allOptions.forEach(opt => opt.classList.remove('selected', 'correct', 'incorrect'));
+
+        // Добавляем выделение только выбранной
+        option.classList.add('selected');
+    });
+});
+
+// Переименованная функция проверки
+function sprawdzOdpowiedzi() {
+    const questions = document.querySelectorAll(".question");
+
+    questions.forEach(question => {
+        const correctIndex = parseInt(question.getAttribute("data-correct"));
+        const options = question.querySelectorAll(".option");
+
+        options.forEach((option, index) => {
+            if (option.classList.contains("selected")) {
+                if (index === correctIndex) {
+                    option.classList.add("correct");
+                    option.classList.remove("incorrect");
+                } else {
+                    option.classList.add("incorrect");
+                    option.classList.remove("correct");
+                }
+            } else {
+                // Убираем старую подсветку
+                option.classList.remove("correct", "incorrect");
+            }
+        });
+    });
+}
+
+

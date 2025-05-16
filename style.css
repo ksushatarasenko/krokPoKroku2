@@ -284,6 +284,60 @@ header ul{
    justify-content: center;
    
 }
+/* infobox */
+.imageTwo{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   cursor: pointer;
+   display: inline-block;
+}
+.info-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .info-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      max-width: 600px;
+      text-align: center;
+    }
+
+.info-box p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .info-box strong {
+    color: #0077cc; /* Цвет ключевых слов */
+    font-size: 18px;
+  }
+
+  .info-box em {
+    color: #555;
+    font-style: italic;
+  }
+
+  #popupImage {
+    width: 420px; /* размер картинки */
+    max-width: 100%;
+    height: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+  }
+/*  */
 .image img{
    width: 80%;
    display: flex;
@@ -508,20 +562,20 @@ button{
    height: 30px;
 }
 .correct {
-   background-color: green;
-   color: white;
+   color: green;
+   /* color: white; */
 }
 
 .incorrect {
-   background-color: red;
-   color: white;
+   color: red;
+   /* color: white; */
 }
-
+/* wybor neprawilnogo otweta */
 .options {
    display: flex;
    gap: 1px;
    font-size: 20px;
-   justify-content: center;
+   /* justify-content: center; */
    align-items: flex-end;
 }
 
@@ -536,7 +590,18 @@ select {
    color: rgb(81, 79, 79);
    padding: 1px;
 }
+.option.selected {
+   background-color: #cce5ff; /* светло-синий */
+}
 
+.option.correct {
+   background-color: #d4edda; /* зелёный */
+}
+
+.option.incorrect {
+   background-color: #f8d7da; /* красный */
+}
+/* end */
 li{
    font-size: 18px;
 }
