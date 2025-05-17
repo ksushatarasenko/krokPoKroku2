@@ -208,6 +208,21 @@ const wordData = {
         "p8": "",
         "audio": "./audio/04B/kondycja fizyczna.mp3"
     },
+    "kort": {
+        "word": "kort",
+        "translation": "корт",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/a9itc4h29n7qiirm/kort.jpeg",
+        "sentence": "Spotkajmy się na korcie tenisowym.",
+        "p1": "существительное, мужской род",
+        "p2": "им.п. - kort / korty ",
+        "p3": "род.п. — kortu / kortów ",
+        "p4": "дат.п. — kortowi / kortom",
+        "p5": "вин.п. — kort / korty ",
+        "p6": "твор.п. — kortem / kortami",
+        "p7": "предл.п. — korcie / kortach",
+        "p8": "зват.п. — korcie / korty",
+        "audio": "./audio/04B/kort.mp3"
+    },
     "odbicie": {
         "word": "odbicie",
         "translation": "отображение",
@@ -267,6 +282,36 @@ const wordData = {
         "p7": "предл.п. — połowie / połowach  ",
         "p8": "зват.п. — połowo / połowy ",
         "audio": "./audio/04B/polowa.mp3"
+    },
+    "powieść": {
+        "word": "powieść",
+        "translation": "роман",
+        "image": "",
+        "sentence": "'Imię róży' to najbardziej znana powieść Umberto Eco. ",
+        "p1": "существительное, женский род",
+        "p2": "им.п. - powieść / powieści",
+        "p3": "род.п. — powieści / powieści",
+        "p4": "дат.п. — powieści / powieściom",
+        "p5": "вин.п. — powieść / powieści",
+        "p6": "твор.п. — powieścią / powieściami ",
+        "p7": "предл.п. — powieści / powieściach ",
+        "p8": "зват.п. — powieści / powieści ",
+        "audio": "./audio/04B/powieść.mp3"
+    },
+    "prababcia": {
+        "word": "prababcia",
+        "translation": "прабабушка ",
+        "image": "https://cdn1.e-polish.eu/709e371d/0v0se1rc7fjbwnq6/babcia.jpg",
+        "sentence": "Babcia mojej mamy to moja prababcia. ",
+        "p1": "существительное, женский род",
+        "p2": "им.п. - prababcia / prababcie ",
+        "p3": "род.п. — prababci / prababć",
+        "p4": "дат.п. — prababci / prababciom",
+        "p5": "вин.п. — prababcię / prababcie",
+        "p6": "твор.п. — prababcią / prababciami",
+        "p7": "предл.п. — prababci / prababciach",
+        "p8": "зват.п. — prababciu! / prababcie!",
+        "audio": "./audio/04B/prababcia.mp3"
     },
     "prostokątny": {
         "word": "prostokątny",
@@ -403,6 +448,36 @@ const wordData = {
         "p8": "зват.п. — snobie / snobi,snoby",
         "audio": "./audio/04B/snob.mp3"
     },
+    "spóźnić się": {
+        "word": "spóźnić się",
+        "translation": "опоздать",
+        "image": "",
+        "sentence": "Spóźniłem się dziś do szkoły, bo był korek. Spóźnił się na pociąg, więc musiał jechać następnym. ",
+        "p1": "глагол, совершенного вида",
+        "p2": "я - spóźniłem się / spóźniłam się",
+        "p3": "ты - spóźniłeś się / spóźniłaś się ",
+        "p4": "on - spóźnił się / ona, ono - spóźniła się ",
+        "p5": "мы - spóźniliśmy się / spóźniłyśmy się ",
+        "p6": "вы - spóźniliście się / spóźniłyście się",
+        "p7": "они - spóźnili się / они - spóźniły się ",
+        "p8": "",
+        "audio": "./audio/04B/spóźnić się.mp3"
+    },
+    "stanowisko": {
+        "word": "stanowisko",
+        "translation": "должность",
+        "image": "https://cdn1.e-polish.eu/709e371d/55y9etqt2oji0imk/stanowisko.jpg",
+        "sentence": "Kandydował na stanowisko prezesa. ",
+        "p1": "существительное, средний род",
+        "p2": "им.п. - stanowisko / stanowiska ",
+        "p3": "род.п. — stanowiska / stanowisk",
+        "p4": "дат.п. — stanowisku / stanowiskom ",
+        "p5": "вин.п. — stanowisko / stanowiska ",
+        "p6": "твор.п. — stanowiskiem / stanowiskami",
+        "p7": "предл.п. — stanowisku / stanowiskach ",
+        "p8": "зват.п. — stanowisko! / stanowiska!",
+        "audio": "./audio/04B/stanowisko.mp3"
+    },
     "starożytny": {
         "word": "starożytny",
         "translation": "древний ",
@@ -477,6 +552,21 @@ const wordData = {
         "p7": "",
         "p8": "",
         "audio": "./audio/04B/w kształcie koła.mp3"
+    },
+    "wchodzić na ekrany": {
+        "word": "wchodzić na ekrany",
+        "translation": "выходить на экраны ",
+        "image": "https://cdn1.e-polish.eu/709e371d/dfyll6gdvc0m49zl/wchodzic_na_ekrany.jpg",
+        "sentence": "'Hobbit' wchodzi na ekrany pod koniec grudnia. ",
+        "p1": "фраза",
+        "p2": "",
+        "p3": "",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "audio": "./audio/04B/wchodzić na ekrany.mp3"
     },
     "wypchnąć": {
         "word": "wypchnąć",
