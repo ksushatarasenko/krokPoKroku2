@@ -14,6 +14,21 @@ const wordData = {
         "p7": "зват.п. — areno / areny",
         "audio": "./audio/04B/arena.mp3"
     },
+    "bialorus": {
+        "word": "Białoruś ",
+        "translation": "Литва ",
+        "image": "https://cdn1.e-polish.eu/709e371d/2rfoe10sr98377oh/bialorus1.jpg",
+        "sentence": "Stolicą Białorusi jest Mińsk.",
+        "p1": "существительное, женский род",
+        "p2": "Страна — Białoruś",
+        "p3": "",
+        "p4": "Мужчина (белорус) — Białorusin",
+        "p5": "",
+        "p6": "Женщина (белоруска) — Białorusinka",
+        "p7": "",
+        "p8": "Множественное число (белорусы) — Białorusini",
+        "audio": "./audio/04B/bilalorus.mp3"
+    },
     "bieg na krótkim dystansie": {
         "word": "bieg na krótkim dystansie",
         "translation": "бег на короткое расстояние",
@@ -222,6 +237,36 @@ const wordData = {
         "p7": "предл.п. — korcie / kortach",
         "p8": "зват.п. — korcie / korty",
         "audio": "./audio/04B/kort.mp3"
+    },
+    "litwa": {
+        "word": "litwa",
+        "translation": "Литва ",
+        "image": "https://cdn1.e-polish.eu/709e371d/hvza3g2sjmcsgeie/litwa.png",
+        "sentence": "Litwa to kraj sąsiadujący z Polską.",
+        "p1": "существительное, женский род",
+        "p2": "страна - Литва — Litwa",
+        "p3": "",
+        "p4": "Мужчина (литовец) — Litwin",
+        "p5": "",
+        "p6": "Женщина (литовка) — Litwinka",
+        "p7": "",
+        "p8": "Множественное число (литовцы) — Litwini",
+        "audio": "./audio/04B/litwa.mp3"
+    },
+    "lotwa": {
+        "word": "Łotwa",
+        "translation": "Литва ",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/izk8yn750sx6kj80/lotwa.png",
+        "sentence": "Łotwa sąsiaduje z Litwą. ",
+        "p1": "существительное, женский род",
+        "p2": "Страна — Łotwa",
+        "p3": "",
+        "p4": "Мужчина (латыш) — Łotysz",
+        "p5": "",
+        "p6": "Женщина (латышка) — Łotyszka",
+        "p7": "",
+        "p8": "Множественное число (латыши) — Łotysze",
+        "audio": "./audio/04B/lotwa.mp3"
     },
     "odbicie": {
         "word": "odbicie",
@@ -433,6 +478,21 @@ const wordData = {
         "p8": "",
         "audio": "./audio/04B/skok w dal.mp3"
     },
+    "slowacja": {
+        "word": "Słowacja",
+        "translation": "Словакия",
+        "image": "https://cdn1.e-polish.eu/709e371d/vluvuk6ky2ngwm6r/slowacja.jpg",
+        "sentence": "Słowacja to kraj sąsiadujący z Czechami.",
+        "p1": "существительное, женский род",
+        "p2": "Страна — Słowacja",
+        "p3": "",
+        "p4": "Мужчина (словак) — Słowak",
+        "p5": "",
+        "p6": "Женщина (словачка) — Słowaczka",
+        "p7": "",
+        "p8": "Множественное число (словаки) — Słowacy",
+        "audio": "./audio/04B/slowacja.mp3"
+    },
     "snob": {
         "word": "snob",
         "translation": "сноб",
@@ -553,6 +613,21 @@ const wordData = {
         "p8": "",
         "audio": "./audio/04B/w kształcie koła.mp3"
     },
+    "wegry": {
+        "word": "Węgry",
+        "translation": "Венгрия",
+        "image": "https://cdn1.e-polish.eu/709e371d/fhphhwl6j2xz9k8i/wegry.jpg",
+        "sentence": "Węgry sąsiadują z Austrią.",
+        "p1": "существительное, средний род",
+        "p2": "Страна — Węgry (обратите внимание: это множественное число в польском, rodzaj niemęskoosobowy)",
+        "p3": "",
+        "p4": "Мужчина (венгр) — Węgier",
+        "p5": "",
+        "p6": "Женщина (венгерка) — Węgierka",
+        "p7": "",
+        "p8": "Множественное число (венгры) — Węgrzy",
+        "audio": "./audio/04B/wegry.mp3"
+    },
     "wchodzić na ekrany": {
         "word": "wchodzić na ekrany",
         "translation": "выходить на экраны ",
@@ -612,6 +687,21 @@ const wordData = {
         "p7": "предл.п. — wzroście",
         "p8": "зват.п. — wzroście",
         "audio": "./audio/04B/wzrost.mp3"
+    },
+     "ukraina": {
+        "word": "Ukraina",
+        "translation": "Украина",
+        "image": "https://cdn1.e-polish.eu/709e371d/h977kjbi1ubxh7t7/ukraina.jpg",
+        "sentence": "Jednym z krajów sąsiadujących z Polską jest Ukraina.",
+        "p1": "существительное, женский род",
+        "p2": "Страна — Ukraina",
+        "p3": "",
+        "p4": "Мужчина (украинец) — Ukrainiec",
+        "p5": "",
+        "p6": "Женщина (украинка) — Ukrainka",
+        "p7": "",
+        "p8": "Множественное число (украинцы) — Ukraińcy",
+        "audio": "./audio/04B/ukraina.mp3"
     },
      "zawodnik": {
         "word": "zawodnik",
