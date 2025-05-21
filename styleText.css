@@ -148,3 +148,7 @@ p{
    background-color: rgb(218, 244, 185);
    padding: 0.8%;
 }
+
+ol{
+   list-style-position: inside;
+}
