@@ -347,10 +347,11 @@ header ul{
    align-items: center; */
    margin: 0 auto;
 }
-
+/* table */
 table img{
    width: 80%;
 }
+
 /* ======= IMAGE ========= */
 .image{
    width: 100%;
