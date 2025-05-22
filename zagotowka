@@ -6,11 +6,11 @@
 <div class="question-set" id="set2">
     <div class="dialog italic ">
         <div class="colors">
-            <p class="p20 italic ">- zielona, ale też niebieska jak woda i żółta jak słonce. => <span
+            <p>- zielona, ale też niebieska jak woda i żółta jak słonce. => <span
                     class="blue">lato</span></p>
         </div>
         <div class="colors">
-            <p class="p20">- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text"
+            <p>- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text"
                     data-answer="lubię" class="line_1"></p>
         </div>
     </div>

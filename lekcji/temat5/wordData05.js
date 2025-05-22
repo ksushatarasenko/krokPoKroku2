@@ -239,6 +239,54 @@ const wordData = {
         "audio": "./audio/05_A/zakochany.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/zakochany"
     },
+    "chętnie": {
+        "word": "chętnie",
+        "translation": "с удовольствием",
+        "image": "",
+        "sentence": "",
+        "p1": "наречие",
+        "p2": "",
+        "p3": "",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "audio": "./audio/05_A/chetnie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/ch%C4%99tnie"
+    },
+    "nosić przy sobie": {
+        "word": "nosić przy sobie",
+        "translation": "носитиь с собой ",
+        "image": "https://cdn1.e-polish.eu/709e371d/uge0k2xyok0v47hu/nosic_przy_sobie.jpg",
+        "sentence": "Zawsze noszę przy sobie parasol, na wypadek deszczu.",
+        "p1": "фраза ",
+        "p2": "",
+        "p3": "",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "audio": "./audio/05_A/nosić przy sobie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/nosi%C4%87+przy+sobie"
+    },
+     "przesyłka": {
+        "word": "przesyłka",
+        "translation": "пересылка",
+        "image": "https://cdn1.e-polish.eu/709e371d/ivvkcnn8nzyb1umq/przesylka.jpg",
+        "sentence": "Dostałem przesyłkę - rodzice przysłali mi jedzenie.",
+        "p1": "существительное, женский род",
+        "p2": "им.п. - przesyłka / przesyłki ",
+        "p3": "род.п. — przesyłki / przesyłek",
+        "p4": "дат.п. — przesyłce / przesyłkom",
+        "p5": "вин.п. — przesyłkę / przesyłki",
+        "p6": "твор.п. — przesyłką / przesyłkami",
+        "p7": "предл.п. — przesyłce / przesyłkach",
+        "p8": "зват.п. — przesyłko / przesyłki",
+        "audio": "./audio/05_A/przesylka.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/przesy%C5%82ka"
+    },
 };
 
 
