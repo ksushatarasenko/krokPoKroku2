@@ -561,6 +561,169 @@ const wordData = {
         "audio": "./audio/05_A/uprzejmy.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/uprzejmy"
     },
+    "bezczelny": {
+        "word": "bezczelny",
+        "translation": "наглый",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/64dxxqigtru8gmnc/bezczelny.jpeg",
+        "sentence": "Michał jest bezczelny - pyskuje do nauczycieli.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/bezczelny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/bezczelny"
+    },
+    "bezmyślny": {
+        "word": "bezmyślny",
+        "translation": "бессмысленный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/mq84a8gtopo1wn7k/bezmyslny.jpeg",
+        "sentence": "Co za bezmyślny kierowca, prawie mnie potrącił!",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/bezmyślny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/bezmy%C5%9Blny"
+    },
+    "beznadziejny": {
+        "word": "beznadziejny",
+        "translation": "безнадежныйй",
+        "image": "https://demotywatory.pl/uploads/201310/1382899166_5ce5mz.jpg",
+        "sentence": "To beznadziejny przypadek, nigdy nie uda się tego naprawić. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/beznadziejny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/beznadziejny"
+    },
+    "cierpieć": {
+        "word": "cierpieć",
+        "translation": "страдать",
+        "image": "https://cdn1.e-polish.eu/709e371d/iuva0uya9uzdwdni/cierpiec.jpg",
+        "sentence": "Anna bardzo cierpi z powodu śmierci ojca. ",
+        "p1": "глагол, несовершенного вида ",
+        "audio": "./audio/05_A/cierpieć.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/beznadziejny"
+    },
+    "dotąd": {
+        "word": "dotąd",
+        "translation": "до тех пор",
+        "image": "https://pbs.twimg.com/media/ChfUigYWUAAj9Mw.jpg:large",
+        "sentence": "Anna bardzo cierpi z powodu śmierci ojca. ",
+        "p1": "другие",
+        "audio": "./audio/05_A/dotad.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dot%C4%85d"
+    },
+    "głowa do góry": {
+        "word": "głowa do góry",
+        "translation": "голова вверх",
+        "image": "https://ustniki.pl/wp-content/uploads/2023/04/glowadogory1.jpg",
+        "sentence": "",
+        "p1": "фраза",
+        "audio": "./audio/05_A/głowa do góry.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/g%C5%82owa+do+g%C3%B3ry"
+    },
+    "nastolatek": {
+        "word": "nastolatek",
+        "translation": "подросток",
+        "image": "https://cdn1.e-polish.eu/709e371d/tmub7q9qhlvrikvv/nastolatek.jpg",
+        "sentence": "Mój syn to zbuntowany nastolatek.",
+        "p1": "существительное, мужской род",
+        "audio": "./audio/05_A/nastolatek.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/nastolatek"
+    },
+    "nie cierpieć": {
+        "word": "nie cierpieć",
+        "translation": "не любить",
+        "image": "https://img19.demotywatoryfb.pl//uploads/201408/1407690619_eqsxub_600.jpg",
+        "sentence": "Nie cierpię matematyki!",
+        "p1": "глагол, несовершенного вида",
+        "audio": "./audio/05_A/nie cierpieć.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/nie+cierpie%C4%87"
+    },
+    "nie znosić": {
+        "word": "nie znosić",
+        "translation": "ненавидеть",
+        "image": "https://www.etutor.pl/images-common/words400/hate.jpg",
+        "sentence": "Ona nie znosi hałasu.",
+        "p1": "глагол, несовершенного вида",
+        "audio": "./audio/05_A/nie znosić.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/nie+znosi%C4%87"
+    },
+    "nieprzygotowany": {
+        "word": "nieprzygotowany",
+        "translation": "неподготовленный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/5qlbdcv7kojp4uzg/nieprzygotowany_1.jpeg",
+        "sentence": "Uczeń przyszedł nieprzygotowany na egzamin. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/nieprzygotowany.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/nieprzygotowany"
+    },
+    "okropny": {
+        "word": "okropny",
+        "translation": "ужасный ",
+        "image": "https://cdn1.e-polish.eu/709e371d/id38nmt1l9wmg3xx/612_okropny.jpg",
+        "sentence": "Mam okropnego sąsiada - wyrzuca śmieci przez okno. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/okropny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/okropny"
+    },
+    "przesadzać": {
+        "word": "przesadzać",
+        "translation": "пересаживать",
+        "image": "https://malaszklarnia.pl/wp-content/uploads/2021/03/Jak-przesadzac-rosliny-i-jaka-ziemie-do-rosliny-wybrac.jpg",
+        "sentence": "Regularnie przesadzam kwiaty. ",
+        "p1": "глагол, несовершенного вида",
+        "audio": "./audio/05_A/przesadzać.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/przesadza%C4%87"
+    },
+    "przygnębiony": {
+        "word": "przygnębiony",
+        "translation": "подавленное",
+        "image": "https://cdn1.e-polish.eu/709e371d/rjpc5fbc9grytxjv/przygnebiony1.png",
+        "sentence": "Mój dziadek niedawno zmarł, dlatego jestem przygnębiony",
+        "p1": "другие",
+        "audio": "./audio/05_A/przygnębiony.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/przygn%C4%99biony"
+    },
+    "wiecznie": {
+        "word": "wiecznie",
+        "translation": "вечно",
+        "image": "https://cdn1.e-polish.eu/709e371d/h9xp8pv8dgb589w0/wiecznie.jpg",
+        "sentence": "Nikt z nas nie będzie żył wiecznie.",
+        "audio": "./audio/05_A/wiecznie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/wiecznie"
+    },
+    "zadowolony": {
+        "word": "zadowolony",
+        "translation": "доволен",
+        "image": "https://cdn1.e-polish.eu/709e371d/jiewot5i19e5icr3/zadowolony.jpg",
+        "sentence": "Jestem zadowolony ze swoich wyników w nauce. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/zadowolony.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zadowolony"
+    },
+    "zdolny": {
+        "word": "zdolny",
+        "translation": "способный",
+        "image": "https://cdn1.e-polish.eu/709e371d/8t08cjdkp5uxmh8n/zdolny.jpg",
+        "sentence": "On jest bardzo zdolnym uczniem, świetnie się uczy. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/zdolny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zdolny"
+    },
+    "zmęczony": {
+        "word": "zmęczony",
+        "translation": "усталый",
+        "image": "https://cdn1.e-polish.eu/709e371d/2qva1urozwlufkyj/zmeczony.jpg",
+        "sentence": "Cały dzień pracowałem i jestem zmęczony. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/zmęczony.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zm%C4%99czony"
+    },
+    "zmotywowany": {
+        "word": "zmotywowany",
+        "translation": "мотивирован",
+        "image": "https://cdn1.e-polish.eu/709e371d/yuz0x60n5hbfoklu/zmotywowany.jpg",
+        "sentence": "Jestem zmotywowany do nauki.",
+        "p1": "другие",
+        "audio": "./audio/05_A/zmotywowany.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zmotywowany"
+    },
+
+    
 };
 
 
