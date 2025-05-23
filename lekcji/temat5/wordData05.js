@@ -399,6 +399,168 @@ const wordData = {
         "audio": "./audio/05_A/wydawać pieniądze.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/wydawa%C4%87+pieni%C4%85dze"
     },
+    "dowcipny": {
+        "word": "dowcipny",
+        "translation": "искренний ",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/qo6d38p5rqv7sipv/dowcipny.jpeg",
+        "sentence": "Opowiedział dowcipną historię. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/dowcipny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dowcipny"
+    },
+    "dusza towarzystwa ": {
+        "word": "dusza towarzystwa ",
+        "translation": "душа компании ",
+        "image": "https://cdn1.e-polish.eu/709e371d/4l32ut17uwac08kn/dusza_towarzystwa.jpg",
+        "sentence": "Maciek jest duszą towarzystwa, znajomi uwielbiają z nim przebywać. ",
+        "p1": "фраза ",
+        "audio": "./audio/05_A/dusza towarzystwa .mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dusza+towarzystwa"
+    },
+    "obszerny": {
+        "word": "obszerny",
+        "translation": "искренний ",
+        "image": "",
+        "sentence": "Mężczyzna miał na sobie obszerny płaszcz, możliwe, że skrywał broń. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/obszerny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/obszerny"
+    },
+    "opanowany": {
+        "word": "opanowany",
+        "translation": "хладнокровный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/x957c83w19hw6uvf/opanowany.jpeg",
+        "sentence": "Staram się być opanowany, nawet w stresujących sytuacjach.",
+        "p1": "другие; imiesłów ",
+        "audio": "./audio/05_A/opanowany.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/opanowany"
+    },
+    "pewna siebie": {
+        "word": "pewna siebie",
+        "translation": "уверенная в себе",
+        "image": "https://www.kultura-i-edukacja.pl/images/zdjecie/kobieta-pewna-siebie.jpg",
+        "sentence": "Ona jest bardzo pewna siebie.",
+        "p1": "фраза",
+        "audio": "./audio/05_A/pewna siebie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/pewna+siebie"
+    },
+    "plotkować": {
+        "word": "plotkować",
+        "translation": "сплетничать ",
+        "image": "https://cdn1.e-polish.eu/709e371d/wnkhdb0cr8zvv3w1/plotkowac.jpg",
+        "sentence": "Plotkowałyśmy na różne tematy.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/plotkować.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/plotkowa%C4%87"
+    },
+    "pracoholik": {
+        "word": "pracoholik",
+        "translation": "трудоголик ",
+        "image": "https://cdn1.e-polish.eu/709e371d/pt6mlax6r0bsq0qw/pracoholik.jpg",
+        "sentence": "Pracy poświęca cały swój czas - jest pracoholikiem.",
+        "p1": "существительное, мужской род",
+        "audio": "./audio/05_A/pracoholik.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/pracoholik"
+    },
+    "rozbawić": {
+        "word": "rozbawić",
+        "translation": "развеселить",
+        "image": "https://cdn1.e-polish.eu/709e371d/8b8qbcfx3vx9okyo/rozbawic.jpg",
+        "sentence": "Klaun rozbawił dzieci.",
+        "p1": "глагол, совершенного вида",
+        "audio": "./audio/05_A/rozbawić.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/rozbawi%C4%87"
+    },
+    "spokojny": {
+        "word": "spokojny",
+        "translation": "спокойный",
+        "image": "https://cdn1.e-polish.eu/709e371d/2h0t2yjjwup036w1/spokojny.jpg",
+        "sentence": "To bardzo spokojny dzień, nic się nie dzieje. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/spokojny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/spokojny"
+    },
+    "uśmiechnięty": {
+        "word": "uśmiechnięty",
+        "translation": "улыбающийся",
+        "image": "https://cdn1.e-polish.eu/709e371d/rgirfjo1i2cyzslp/usmiechniety.png",
+        "sentence": "Jestem zawsze uśmiechnięty, bo jestem optymistą. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/uśmiechnięty.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/u%C5%9Bmiechni%C4%99ty"
+    },
+    "według mnie": {
+        "word": "według mnie",
+        "translation": "на мой взгляд",
+        "image": "https://i.ytimg.com/vi/MKhM5ivVN0k/maxresdefault.jpg",
+        "sentence": "Według mnie już czas.",
+        "p1": "фраза",
+        "audio": "./audio/05_A/według mnie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/wed%C5%82ug+mnie"
+    },
+     "z drugiej strony": {
+        "word": "z drugiej strony",
+        "translation": "с другой стороны",
+        "image": "https://cdn1.e-polish.eu/709e371d/h3mls0aez2xrpsqh/z_drugiej_strony.jpg",
+        "sentence": "Z jednej strony chciałabym iść do kina, z drugiej strony - jestem zmęczona. ",
+        "p1": "фраза",
+        "audio": "./audio/05_A/z drugiej strony.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/z+drugiej+strony"
+    },
+    "zdecydowanie": {
+        "word": "zdecydowanie",
+        "translation": "решительно",
+        "image": "https://img1.dmty.pl//uploads/201904/1555519652_ag0zit_600.jpg",
+        "sentence": "Zdecydowanie odmówił przyjęcia jedzenia od obcych. ",
+        "p1": "наречие",
+        "audio": "./audio/05_A/zdecydowanie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zdecydowanie"
+    },
+    "gadatliwy": {
+        "word": "gadatliwy",
+        "translation": "разговорчивый",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/kkj0cgb9j2m5ryrm/gadatliwy.jpeg",
+        "sentence": "Maciek jest bardzo gadatliwy, usta mu się nie zamykają. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/gadatliwy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/gadatliwy"
+    },
+    "oszczędny": {
+        "word": "oszczędny",
+        "translation": "сберегательный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/ffoon5upbf8nd6zy/oszczedny.jpeg",
+        "sentence": "Piotr jest oszczędny. ",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/oszczędny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/oszcz%C4%99dny"
+    },
+    "sprytny": {
+        "word": "sprytny",
+        "translation": "ловкий ",
+        "image": "https://cdn1.e-polish.eu/709e371d/66nos2irxg5ohqti/sprytny.jpg",
+        "sentence": "Piotr jest sprytny.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/sprytny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/sprytny"
+    },
+    "towarzyski": {
+        "word": "towarzyski",
+        "translation": "товарищеский",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/2j2izbd237r2wced/towarzyski.jpeg",
+        "sentence": "Wojtek to towarzyski człowiek, zawsze otacza go grupka znajomych.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/towarzyski.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/towarzyski"
+    },
+    "uprzejmy": {
+        "word": "uprzejmy",
+        "translation": "вежливый ",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/ggxpkqv2l6ep73yu/uprzejmy.jpeg",
+        "sentence": "Co za uprzejmy człowiek, pomógł mi nieść zakupy",
+        "p1": "прилагательное",
+        "audio": "./audio/05_A/uprzejmy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/uprzejmy"
+    },
 };
 
 
@@ -411,14 +573,7 @@ function showPopup(el) {
   document.getElementById('popupWord').textContent = data.word;
   document.getElementById('popupTranslation').textContent = data.translation;
  document.getElementById('popupDetails').innerHTML = `
-  <span style="color: green;">${data.p1}</span><br>
-  ${data.p2}<br>
-  ${data.p3}<br>
-  ${data.p4}<br>
-  ${data.p5}<br>
-  ${data.p6}<br>
-  ${data.p7}<br>
-  ${data.p8}
+  <span style="color: green;">${data.p1}</span><br> 
 `;
   document.getElementById('popupSentence').textContent = data.sentence;
   document.getElementById('popupImage').src = data.image;

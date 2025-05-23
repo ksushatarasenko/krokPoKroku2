@@ -582,17 +582,29 @@ button{
 }
 /* wybor neprawilnogo otweta */
 .options {
-   display: flex;
-   gap: 1px;
-   font-size: 20px;
-   /* justify-content: center; */
+   display: grid;
+   grid-template-columns: 70% 30%;
+   /* gap: 1px; */
+   font-size: 18px;
+   justify-content: center;
    align-items: flex-end;
+   width: 85%;
+   margin: 0 auto;
 }
 
 .option {
    cursor: pointer;
    margin-top: 10px;
    font-size: 18px; 
+}
+.boxRadio{
+   margin-left: 20%;
+   width: 30%;
+   text-align: right;
+   display: flex;
+   justify-content: flex-end;
+   gap: 15px;
+   text-align: center;
 }
 select {
    font-size: 16px; 
@@ -651,15 +663,7 @@ input {
 }
 
 
-.boxRadio{
-   margin-right: 1px;
-   width: 30%;
-   text-align: right;
-   display: flex;
-   justify-content: flex-end;
-   gap: 15px;
-   text-align: center;
-}
+
 
 
 .displayFlex{
