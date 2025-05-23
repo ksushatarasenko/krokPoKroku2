@@ -95,6 +95,8 @@ document.addEventListener('DOMContentLoaded', function () {
             this.classList.toggle('zoomed');
         });
     });
+    // Зачёркивание слов
+    initWordStrikethrough();
 });
 
 // prowerka Optima
@@ -208,4 +210,13 @@ function sprawdzOdpowiedzi() {
     });
 }
 
+// функция - зачеркнуть слово и в инпуте написать правильною форму
 
+function initWordStrikethrough() {
+    document.querySelectorAll('.word').forEach(word => {
+        word.addEventListener('click', () => {
+            word.classList.toggle('strikethrough-blue');
+        });
+    });
+}
+// 

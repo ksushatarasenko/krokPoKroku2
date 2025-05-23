@@ -572,6 +572,14 @@ button{
    color: red;
    /* color: white; */
 }
+.word {
+    cursor: pointer;
+}
+
+.word.strikethrough-blue {
+    text-decoration: line-through;
+    color: blue;
+}
 /* wybor neprawilnogo otweta */
 .options {
    display: flex;
