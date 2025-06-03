@@ -803,6 +803,15 @@ const wordData = {
         "audio": "./audio/05_B/zadowolony.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/zadowolony"
     },
+    "kolejka": {
+        "word": "kolejka",
+        "translation": "доволен",
+        "image": "https://cdn1.e-polish.eu/709e371d/l2o1934kcrldlkko/kolejka.jpg",
+        "sentence": "Stoję w długiej kolejce do kasy.",
+        "p1": "существительное, женский род",
+        "audio": "./audio/05_B/kolejka.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/kolejka"
+    },
 
     
 };
