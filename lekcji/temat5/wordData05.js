@@ -722,6 +722,87 @@ const wordData = {
         "audio": "./audio/05_A/zmotywowany.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/zmotywowany"
     },
+    "barczysty": {
+        "word": "barczysty",
+        "translation": "плечистый",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/jpc4wdxfmr2je0p4/barczysty.jpeg",
+        "sentence": "Kamil jest barczystym mężczyzną.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/barczysty.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/barczysty"
+    },
+    "cudzy": {
+        "word": "cudzy",
+        "translation": "чужой",
+        "image": "https://memy.tapeciarnia.pl/memy/jaki-jest-najlatwiejszy-problem-do-rozwiazania-cudzy.jpg",
+        "sentence": "Nie powinieneś brać tego portfela, bo jest cudzy.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/cudzy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/cudzy"
+    },
+    "drogi": {
+        "word": "drogi",
+        "translation": "дорогой",
+        "image": "https://cdn1.e-polish.eu/709e371d/3ix31vjnu1c7gkwu/drogi.jpg",
+        "sentence": "Witamy naszych drogich kolegów!",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/drogi.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/drogi"
+    },
+    "głuchy": {
+        "word": "głuchy",
+        "translation": "глухой",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/uzau6ffe2h5czorf/gluchy.png",
+        "sentence": "Mój dziadek jest głuchy.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/głuchy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/głuchy"
+    },
+    "leniwy": {
+        "word": "leniwy",
+        "translation": "ленивый",
+        "image": "https://cdn1.e-polish.eu/709e371d/44ckkbirkosee4ec/leniwy.jpg",
+        "sentence": "Jestem leniwy, najbardziej lubię spać.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/leniwy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/leniwy"
+    },
+    "obcy": {
+        "word": "obcy",
+        "translation": "чужой",
+        "image": "https://ocdn.eu/pulscms-transforms/1/TASk9kuTURBXy9lZTA3ZTEzMS1kOTBiLTQwZGYtOWZmMi1iYzM4MDg1MDIxY2IuanBlZ5GVAs0BVM0BVMPD3gABoTAB",
+        "sentence": "Jestem Polką i Francja to dla mnie obcy kraj.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/obcy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/obcy"
+    },
+    "świeży": {
+        "word": "świeży",
+        "translation": "свежий",
+        "image": "https://cdn1.e-polish.eu/709e371d/udtemx94ry1zmuqz/swiezy.jpg",
+        "sentence": "Wycisnąłem świeży sok z pomarańczy.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/świeży.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/%C5%9Bwie%C5%BAy"
+    },
+    "uroczy": {
+        "word": "uroczy",
+        "translation": "замечательный",
+        "image": "https://cdn1.e-polish.eu/709e371d/9krqbculzfvrg4ym/uroczy.jpg",
+        "sentence": "Ten chłopiec jest uroczy!",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/uroczy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/uroczy"
+    },
+    "zadowolony": {
+        "word": "zadowolony",
+        "translation": "доволен",
+        "image": "https://cdn1.e-polish.eu/709e371d/jiewot5i19e5icr3/zadowolony.jpg",
+        "sentence": "Jestem zadowolony ze swoich wyników w nauce.",
+        "p1": "прилагательное",
+        "audio": "./audio/05_B/zadowolony.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zadowolony"
+    },
 
     
 };
