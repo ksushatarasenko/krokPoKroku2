@@ -812,6 +812,33 @@ const wordData = {
         "audio": "./audio/05_B/kolejka.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/kolejka"
     },
+    "zwierzę": {
+        "word": "zwierzę",
+        "translation": "животное",
+        "image": "https://cdn1.e-polish.eu/709e371d/n9h3xizavxw0puic/zwierze_3.jpg",
+        "sentence": "W ZOO mieszkają różne zwierzęta.",
+        "p1": "существительное, средний род",
+        "audio": "./audio/05_B/zwierze.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zwierzę"
+    },
+    "książę": {
+        "word": "książę",
+        "translation": "князь / принц",
+        "image": "https://cdn1.e-polish.eu/709e371d/wdnx9xjtfygewakr/ksiaze.jpg",
+        "sentence": "Książę zabił smoka i poślubił księżniczkę.",
+        "p1": "существительное, женский род",
+        "audio": "./audio/05_B/książę.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/ksi%C4%85%C5%BC%C4%99"
+    },
+    "ksiądz": {
+        "word": "ksiądz",
+        "translation": "католический священник",
+        "image": "https://cdn1.e-polish.eu/709e371d/phvrok52wjrabd0b/ksiadz.png",
+        "sentence": "Ksiądz prowadzi mszę.",
+        "p1": "существительное, мужской род",
+        "audio": "./audio/05_B/ksiądz.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/ksi%C4%85dz"
+    },
 
     
 };
