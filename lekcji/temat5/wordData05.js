@@ -839,6 +839,60 @@ const wordData = {
         "audio": "./audio/05_B/ksiądz.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/ksi%C4%85dz"
     },
+     "jeśli coś się nie uda": {
+        "word": "jeśli coś się nie uda",
+        "translation": "если что-то не удастся",
+        "image": "https://demotywatory.pl/uploads/201302/1360483272_zyoyf9_600.jpg",
+        "sentence": "Jeśli coś się nie uda za pierwszym razem, nie poddawaj się.",
+        "p1": "фраза",
+        "audio": "./audio/05_C/jeśli coś się nie uda.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/je%C5%9Bli+co%C5%9B+si%C4%99+nie+uda"
+    },
+    "prawnik": {
+        "word": "prawnik",
+        "translation": "католический священник",
+        "image": "https://cdn1.e-polish.eu/709e371d/tf9l1ijpkdjeib87/prawnik.jpg",
+        "sentence": "Mój szwagier jest prawnikiem, pracuje w kancelarii.",
+        "p1": "существительное, мужской род",
+        "audio": "./audio/05_C/prawnik.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/prawnik"
+    },
+    "uczciwość": {
+        "word": "uczciwość",
+        "translation": "католический священник",
+        "image": "https://cdn1.e-polish.eu/709e371d/tf9l1ijpkdjeib87/prawnik.jpg",
+        "sentence": "Uczciwość to obecnie rzadko spotykana cecha.",
+        "p1": "существительное, женский род",
+        "audio": "./audio/05_C/uczciwość.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/prawnik"
+    },
+    "zależeć od": {
+        "word": "zależeć od",
+        "translation": "зависеть от",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/zzpdf29x983mggm8/zalezec_od.jpeg",
+        "sentence": "To, czy zdasz egzamin, zalży od ciebie.",
+        "p1": "фраза",
+        "audio": "./audio/05_C/zależeć od.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zale%C5%BCe%C4%87+od"
+    },
+    "złodziej": {
+        "word": "złodziej",
+        "translation": " вор",
+        "image": "https://cdn1.e-polish.eu/709e371d/cqob22syfk0qcqry/zlodziej.jpg",
+        "sentence": "Złodziej został przyłapany na kradzieży w sklepie sportowym.",
+        "p1": "существительное, мужской род",
+        "audio": "./audio/05_C/złodziej.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/z%C5%82odziej"
+    },
+    "życie": {
+        "word": "życie",
+        "translation": "католический священник",
+        "image": "https://cdn1.e-polish.eu/709e371d/4g5a4dls8g91kta0/zycie.jpg",
+        "sentence": "Według legend kot ma siedem żyć.",
+        "p1": "существительное, средний род",
+        "audio": "./audio/05_C/zycie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/%C5%BCycie"
+    },
 
     
 };

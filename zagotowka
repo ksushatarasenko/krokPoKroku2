@@ -30,7 +30,7 @@
 
 <div class="flex">
     <div class="hint2-container" onclick="toggleHint2(this)">
-        <div class="hint2-header"></div>
+        <div class="hint2-header">Odpowiedź</div>
         <div class="hint2-content">
             <div class="image" style="width: 90%;">
                 <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgo0FbEIO8PG6tWPh5w?embed=1&width=1040&height=654" alt="otwet203B1_1">
