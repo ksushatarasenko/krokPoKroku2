@@ -11,16 +11,15 @@ h2{
 }
 h3{
    font-size: 20px; 
-   margin-top: 2%;
    color: green;
    text-align: center;
-   padding: 1% 4%;
+   padding: 1% 2%;
 
 }
 h4{
    font-size: 18px;
    color: rgb(15, 92, 92);
-   padding: 1% 4%;
+   padding: 1% 2%;
 }
 .h4{
    font-size: 22px;
