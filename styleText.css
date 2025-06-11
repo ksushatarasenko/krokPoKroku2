@@ -73,6 +73,10 @@ p{
 .violet{
    color: rgb(105, 14, 190);
 }
+.gray{
+   color: gray;
+   font-style: italic;
+}
 .b{
    font-weight: 900;
    color: blue;
@@ -158,6 +162,7 @@ p{
 
 ol{
    list-style-position: inside;
+   line-height: 1.5;
 }
 .td{
    font-size: 18px;
