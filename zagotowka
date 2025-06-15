@@ -377,3 +377,9 @@
         </div>
     </div>
 </form>
+
+<!-- audio wosproizwedenie -->
+
+ <p  class="wordAudio" data-audio="./audio/06_C/Twoje działania mijają się z celem.mp3" id="audio4">
+    <img src="../../icons/audio.avif" style="width: 35px;" alt="">
+    <em>Twoje działania mijają się z celem.</em></p>

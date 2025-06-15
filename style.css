@@ -575,7 +575,9 @@ button{
 .word {
     cursor: pointer;
 }
-
+.wordAudio{
+   cursor: pointer;
+}
 .word.strikethrough-blue {
     text-decoration: line-through;
     color: blue;

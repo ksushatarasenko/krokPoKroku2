@@ -276,41 +276,41 @@ const wordData = {
         "audio": "./audio/06_B/wymagajacy.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/wymagaj%C4%85cy"
     },
-    "plotkować": {
-        "word": "plotkować",
-        "translation": "сплетничать ",
-        "image": "https://cdn1.e-polish.eu/709e371d/wnkhdb0cr8zvv3w1/plotkowac.jpg",
-        "sentence": "Plotkowałyśmy na różne tematy.",
-        "p1": "прилагательное",
-        "audio": "./audio/05_A/plotkować.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/plotkowa%C4%87"
+    "czatować": {
+        "word": "czatować",
+        "translation": "подкарауливать",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/berktyw42wedajm1/czatowac.jpeg",
+        "sentence": "Czatował na nią przed domem, chociaż wcale nie chciała z nim rozmawiać.",
+        "p1": "глагол, несовершенного вида",
+        "audio": "./audio/06_C/czatowac.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/czatowa%C4%87"
     },
-    "pracoholik": {
-        "word": "pracoholik",
-        "translation": "трудоголик ",
-        "image": "https://cdn1.e-polish.eu/709e371d/pt6mlax6r0bsq0qw/pracoholik.jpg",
-        "sentence": "Pracy poświęca cały swój czas - jest pracoholikiem.",
-        "p1": "существительное, мужской род",
-        "audio": "./audio/05_A/pracoholik.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/pracoholik"
+    "lektura": {
+        "word": "lektura",
+        "translation": "чтение",
+        "image": "https://cdn1.e-polish.eu/709e371d/a2j2z8mz2x5zf0qr/lektura.jpg",
+        "sentence": "Ta książka to pasjonująca lektura.",
+        "p1": "существительное, женский род",
+        "audio": "./audio/06_C/lektura.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/lektura"
     },
-    "rozbawić": {
-        "word": "rozbawić",
-        "translation": "развеселить",
-        "image": "https://cdn1.e-polish.eu/709e371d/8b8qbcfx3vx9okyo/rozbawic.jpg",
-        "sentence": "Klaun rozbawił dzieci.",
+    "mijać": {
+        "word": "mijać",
+        "translation": "проходить",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/2b6f3dn6d2i0p4u9/mijac.jpeg",
+        "sentence": "W drodze do szkoły mijam dwa banki.",
         "p1": "глагол, совершенного вида",
-        "audio": "./audio/05_A/rozbawić.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/rozbawi%C4%87"
+        "audio": "./audio/06_C/mijac.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/mija%C4%87"
     },
-    "spokojny": {
-        "word": "spokojny",
-        "translation": "спокойный",
-        "image": "https://cdn1.e-polish.eu/709e371d/2h0t2yjjwup036w1/spokojny.jpg",
-        "sentence": "To bardzo spokojny dzień, nic się nie dzieje. ",
-        "p1": "прилагательное",
-        "audio": "./audio/05_A/spokojny.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/spokojny"
+    "myśleć o niebieskich migdałach": {
+        "word": "myśleć o niebieskich migdałach",
+        "translation": "думать о нереальном (идиома)",
+        "image": "https://cdn1.e-polish.eu/709e371d/y82h9tek9xnhad98/myslec_o_niebieskich_migdalach.jpg",
+        "sentence": "",
+        "p1": "фраза",
+        "audio": "./audio/06_C/myslec_o_niebieskich_migdalach.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/my%C5%9Ble%C4%87+o+niebieskich+migda%C5%82ach"
     },
     "uśmiechnięty": {
         "word": "uśmiechnięty",
@@ -769,3 +769,13 @@ function hidePopup() {
   const audio = document.getElementById('popupAudio');
   if (audio) audio.pause();
 }
+
+
+document.querySelectorAll('.wordAudio').forEach(function(el) {
+      el.addEventListener('click', function() {
+        const audioSrc = this.getAttribute('data-audio');
+        const audio = new Audio(audioSrc);
+        audio.play();
+        console.log("Played:", this.id);
+      });
+    });
