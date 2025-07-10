@@ -110,6 +110,11 @@ p{
    font-size: 34px;
    text-indent: 60px;
 }
+.pText{
+   width: 80%;
+   margin: 0 auto;
+   font-size: 20px;
+}
 .text20 input{
    font-size: 20px;
 }
