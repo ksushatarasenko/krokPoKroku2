@@ -40,36 +40,40 @@
 </div>
 
 
-<!-- tablica wpisać-->
-<div class="question-set" id="set3">
-    <table class="dialog italic ">
-        <tr>
-            <td><span class="weight">pora roku</span> <br>mianownik (kto?, co?)</td>
-            <td><span class="weight">kiedy?</span> <br>narzednik (kim?, czim? (коли?))</td>
-        </tr>
-        <tr>
-            <td>wiosna</td>
-            <td><input type="text" data-answer="wiosną" class="line_1"></td>
-        </tr>
-        <tr>
-            <td>lato</td>
-            <td><input type="text" data-answer="latem" class="line_1"></td>
-        </tr>
-        <tr>
-            <td>jesień</td>
-            <td><span class="blue">jesieni</span><span class="red">ą</span></td>
-        </tr>
-        <tr>
-            <td>zima</td>
-            <td><input type="text" data-answer="zimą" class="line_1"></td>
-        </tr>
-    </table>
-    <button onclick="checkAnswers('set3')">Check</button>
-    <button onclick="toggleHints('hints3')">Wskazówka</button>
-    <div id="hints3" style="display: none;">
-        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfRUYFZoEPE2GLQDNg?embed=1&width=2440&height=228" alt="poryRoku">
-    </div>
-</div>
+<!-- TABLE -->
+
+<table>
+    <tr>
+        <th>🧭 a) Локализация — Где?</th>
+        <th>⏰ b) Время — Когда?</th>
+        <th>🎯 c) Цель (событие, действие)</th>
+        <th>🔑 d) Предлоги, которые требуют мест. падеж:</th>
+    </tr>
+    <tr>
+        <td>w Polsce (в Польше) 🇵🇱</td>
+        <td>w zimie (зимой) ❄️</td>
+        <td>na filmie (на фильме) 🎬</td>
+        <td>w (в)</td>
+    </tr>
+    <tr>
+        <td>na stole (на столе) 🍽️</td>
+        <td>w styczniu (в январе) 📅</td>
+        <td>na imprezie (на вечеринке) 🎉</td>
+        <td>na (на)</td>
+    </tr>
+    <tr>
+        <td>przy tablicy (у доски) 🧑‍🏫</td>
+        <td>w zeszłym tygodniu (на прошлой неделе)</td>
+        <td>na obiedzie (на обеде) 🍽️</td>
+        <td>przy (у)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>o ósmej (в восемь часов) 🕗</td>
+        <td></td>
+        <td>o (о) / po (после)</td>
+    </tr>
+</table>
 <!-- ż -->
 <!-- &nbsp;  probel -->
 

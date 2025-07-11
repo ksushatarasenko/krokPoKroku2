@@ -45,7 +45,7 @@ h6{
    padding: 1%;
 }
 p{
-   font-size: 18px;
+   font-size: 16px;
    line-height: 1.6;
    color: rgb(84, 76, 76);
    font-weight:400 ;
@@ -120,13 +120,13 @@ p{
    border: 2px solid gray;
    border-radius: 20px;
    margin: 2%;
-   font-size: 34px;
+   font-size: 24px;
    text-indent: 60px;
 }
 .pText{
    width: 80%;
    margin: 8px auto;
-   font-size: 20px;
+   font-size: 19px;
 }
 .text20 input{
    font-size: 20px;
