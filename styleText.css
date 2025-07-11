@@ -10,16 +10,29 @@ h2{
     font-size: 1.8em;
 }
 h3{
-   font-size: 20px; 
+   font-size: 22px; 
    color: green;
    text-align: center;
    padding: 1% 2%;
 
 }
 h4{
-   font-size: 18px;
+   font-size: 20px;
    color: rgb(15, 92, 92);
    padding: 1% 2%;
+   text-align: center;
+}
+h5{
+   font-size: 18px;
+   color: rgb(169, 76, 4);
+   padding: 1% 2%;
+   text-align: center;
+}
+h6{
+   font-size: 18px;
+   color: rgb(121, 13, 180);
+   padding: 1% 2%;
+   text-align: center;
 }
 .h4{
    font-size: 22px;
@@ -112,7 +125,7 @@ p{
 }
 .pText{
    width: 80%;
-   margin: 0 auto;
+   margin: 8px auto;
    font-size: 20px;
 }
 .text20 input{
