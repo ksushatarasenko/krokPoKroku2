@@ -156,7 +156,7 @@ header ul{
 .two_1{
    width: 100%;
    display: flex;
-   gap: 30px;
+   gap: 20px;
    justify-content: space-around;
 }
 .two_1 img{
