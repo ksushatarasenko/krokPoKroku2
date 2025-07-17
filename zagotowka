@@ -394,3 +394,10 @@
     <img src="../../icons/audio.avif" style="width: 35px;" alt="">
     <em>Twoje działania mijają się z celem.</em>
 </p>
+
+<!-- AUDIO przez THIS -->
+
+<p data-audio="./audio/na ogół.mp3">
+    <img src="../../icons/audio.avif" style="width: 25px; cursor: pointer;" alt="">
+    <em>na ogół</em>
+</p>
