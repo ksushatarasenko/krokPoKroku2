@@ -185,3 +185,12 @@ ol{
 .td{
    font-size: 18px;
 }
+/* DIALOG */
+.dialog{
+   width: 85%;
+   margin: 0 auto;
+}
+.dialog>p{
+   font-size: 19px;
+   margin-top: 1%;
+}
