@@ -94,6 +94,12 @@ p{
    font-weight: 900;
    color: blue;
 }
+.u{
+   color: rgb(0, 34, 255);
+   font-size: 18px;
+   text-decoration: underline !important;
+   font-style: italic;
+}
 
 .slowa{
    width: 70%;
